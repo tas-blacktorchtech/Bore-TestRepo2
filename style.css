@@ -22,3 +22,30 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+nav a[aria-current="page"] {
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+
+main, .content {
+  max-width: 860px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-top: 32px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+}
+
+p {
+  line-height: 1.6;
+}
