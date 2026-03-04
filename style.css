@@ -77,4 +77,12 @@ footer {
   nav a {
     margin-right: 0;
   }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  body {
+    font-size: 15px;
+  }
 }
